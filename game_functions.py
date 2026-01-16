@@ -2,8 +2,20 @@ import random
 
 # function to be used by game_1: Guess the Number
 def pick_value(poss_values):
+
+    #print("possible values", poss_values)
+
+    #get max and min values, floor divide them by 2 and select the middle value as the selection every time
+    minimum = min(poss_values)
+    maximum = max(poss_values)
+    value = (minimum + maximum) // 2
+
+    return value
+
+    """
     x = random.choice(poss_values)   
     return x
+    """
 
 # function to be used in game_2: Higher or Lower
 def check_higher_lower(current_val, next_val, user_input):
