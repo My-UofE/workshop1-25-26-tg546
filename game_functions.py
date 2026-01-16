@@ -3,13 +3,7 @@ import random
 # function to be used by game_1: Guess the Number
 def pick_value(poss_values):
 
-    #print("possible values", poss_values)
-
-    #get max and min values, floor divide them by 2 and select the middle value as the selection every time
-    minimum = min(poss_values)
-    maximum = max(poss_values)
-    value = (minimum + maximum) // 2
-
+    #simply take the middle value of the list of possible values and return this
     return poss_values[len(poss_values)//2]
 
     """
