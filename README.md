@@ -21,5 +21,5 @@ Figure 1: An ascii-art image of a ????
 Test commit
 
 
-
+Test staging
 
