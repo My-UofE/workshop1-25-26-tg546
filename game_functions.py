@@ -10,7 +10,7 @@ def pick_value(poss_values):
     maximum = max(poss_values)
     value = (minimum + maximum) // 2
 
-    return len(poss_values)//2
+    return poss_values[len(poss_values)//2]
 
     """
     x = random.choice(poss_values)   
