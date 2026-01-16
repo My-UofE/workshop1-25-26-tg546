@@ -9,12 +9,12 @@ def pick_value(poss_values):
 def check_higher_lower(current_val, next_val, user_input):
     if (current_val > next_val) && user_input == "l":
         return True
-    else:
+    if (current_val > next_val) && user_input == "h":
         return False
 
     if (current_val < next_val) && user_input == "h":
         return True
-    else:
+    if (current_val < next_val) && user_input == "l":
         return False
 
 
